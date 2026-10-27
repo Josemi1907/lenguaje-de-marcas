@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ITF-8"?>
+<Bibliotecas>
+    <Biblioteca>
+    <Ciudades>
+        <Sevilla> 
+            <Libro> Quicksilver, Callie Hart </Libro>
+            <Libro> Brimstone, Callie Hart </Libro>
+        </Sevilla>
+    </Biblioteca>
+
+    <Biblioteca>
+        <Malaga> 
+            <Libro> Los reyes de Kearny, Navessa Allen </Libro>
+            <Libro> De rodillas (Adentrate en la oscuridad 2), Navessa Allen </Libro>
+        </Malaga>
+    </Biblioteca>
+
+    <Biblioteca>
+        <Granada> 
+            <Libro> Los huerfanos, Carmen Mola </Libro>
+            <Libro> Els Orfes, Carmen Mola </Libro>
+        </Granada>
+    </Biblioteca>
+</Bibliotecas>
+    
+    

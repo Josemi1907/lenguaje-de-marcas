@@ -1,0 +1,35 @@
+<?xml "version=1.0" encoding="UTF-8"?>
+<Clase>
+    <Alumno>
+        <Nombre> Pepe </Nombre>
+        <Apellidos>
+            <Primer-apellido> García </Primer-apellido>
+            <Segundo-apellido> Moreno </Segundo-apellido>
+        </Apellidos>
+        <Edad> 12 </Edad>
+        <Direccion> C. Hespérides, 24 </Direccion>
+        <Curso> 1º ESO </Curso>
+    </Alumno>
+
+    <Alumno>
+        <Nombre> Marta </Nombre>
+        <Apellidos>
+            <Primer-apellido> Pastor </Primer-apellido>
+            <Segundo-apellido> Ruiz </Segundo-apellido>
+        </Apellidos>
+        <Edad> 12 </Edad>
+        <Direccion> C. Virgen de Escardiel, 5-3 </Direccion>
+        <Curso> 1º ESO </Curso>
+    </Alumno>
+
+    <Alumno>
+        <Nombre> Antonio </Nombre>
+        <Apellidos>
+            <Primer-apellido> Sanchez </Primer-apellido>
+            <Segundo-apellido> Rueda </Segundo-apellido>
+        </Apellidos>
+        <Edad> 13 </Edad>
+        <Direccion> C. Rey Gaspar, 12-44 </Direccion>
+        <Curso> 1º ESO </Curso>
+    </Alumno>
+</Clase>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mamiferos>
+    <Animal>
+        <nombre> Leon </nombre>
+        <clase> Mamifero </clase>
+        <orden> Carnivora </orden>
+        <habitat> Sabana </habitat>
+    </Animal>
+
+    <Animal>
+        <nombre> Jirafa </nombre>
+        <clase> Mamifero </clase>
+        <orden> Artiodáctilos </orden>
+        <habitat> Sabana </habitat>
+    </Animal>
+
+    <Animal>
+        <nombre> Elefante </nombre>
+        <clase> Mamifero </clase>
+        <orden> Proboscidea </orden>
+        <habitat> Sabana </habitat>
+    </Animal>
+
+    <Animal>
+        <nombre> Cebra </nombre>
+        <clase> Mamifero </clase>
+        <orden> Perissodactyla </orden>
+        <habitat> Sabana </habitat>
+    </Animal>
+</Mamiferos>

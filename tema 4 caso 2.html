@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend><b>Datos personales</b></legend>
+            <p>Nombre : <input type="text" name="Nombre"> </p>
+            <p>Edad : <input type="text" name="Edad" size="1"> </p>
+        </fieldset>
+
+        <fieldset>
+            <legend><b>Datos de interes</b></legend>
+            <p>¿Estas casado?:
+                <label for="Si"> Si </label>
+                <input type="radio" name="Si" value="S">
+                <label for="No"> No </label>
+                <input type="radio" name="No" value="N">
+            </p>
+
+            <p> Deportes:
+                <label for="Baloncesto"> Baloncesto </label>
+                <input type="checkbox" name="Baloncesto" value="checked"> 
+                <label for="Futbol"> Futbol </label>
+                <input type="checkbox" name="Futbol" value="checked">
+                <label for="Ciclismo"> Ciclismo </label>
+                <input type="checkbox" name="Ciclismo" value="checked">
+            </p>
+        </fieldset>   
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

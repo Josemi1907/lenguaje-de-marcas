@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+    <h1>Contacto</h1>
+    <a href="index.html">← Volver al inicio</a>
+    <p>Rellena el formulario y te responderemos lo antes posible.</p>
+
+    <form action="#" method="post">
+        <fieldset> 
+            <legend>Datos personales</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" size="30">
+            <br><br>
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" size="40">
+            <br><br>
+            <label for="correo">Correo electrónico:</label>
+            <input type="text" id="apellidos" name="correo" size="40">
+            <br><br>
+            <label for="telefono">Teléfono:</label>
+            <input type="text" id="telefono" name="telefono" size="9">
+        </fieldset>
+        
+        <fieldset>
+            <legend>Tu consulta</legend>
+            <label for="ciclo_int">Ciclo que te interesa:</label>
+            <select name="ciclo_int">
+                <optgroup label="Grado Medio">
+                    <option>SMR</option>
+                </optgroup>
+
+                <optgroup label="Grado Superior">
+                    <option selected>DAM</option>
+                    <option>DAW</option>
+                    <option>ASIR</option>
+                </optgroup>
+            </select>
+            <br><br>
+            <label for="colsulta">Tipo de consulta:</label>
+            <input type="radio" id="informacion" name="tipo" value="informacion" checked>
+            <label for="informacion">Información</label>
+            <input type="radio" id="matricula" name="tipo" value="matricula">
+            <label for="matricula">Matrícula</label>
+            <input type="radio" id="otra" name="tipo" value="Otra">
+            <label for="otra">Otra</label>
+            <br><br>
+            <label for="conocido">¿Cómo nos has conocido?:</label>
+            <input type="checkbox" id="internet" name="internet">
+            <label for="internet">Internet</label>
+            <input type="checkbox" id="amigos" name="amigos">
+            <label for="amigos">Amigos</label>
+            <input type="checkbox" id="sociales" name="sociales">
+            <label for="sociales">Redes sociales</label>
+            <br><br>
+            <label for="mensaje">Mensaje:</label>
+            <br>
+            <textarea id="mensaje" name="mensaje" cols="50" rows="5"></textarea>
+        </fieldset>
+        <br>
+
+        <input type="checkbox" id="plitica" name="politica">
+        <label for="politica">Acepto la política de privacidad</label>
+        <br><br>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+
+    </form>
+</body>
+</html>
