@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ejercicio css</title>
+    <style>
+        .rojo {
+            color: red !important;
+        }
+
+        p.rojo {
+            color: yellow;
+        }
+
+        #verde {
+            color: green;
+        }
+
+        #naranja {
+            color: orange;
+        }
+
+        .rosa {
+            color: pink;
+        }
+    </style>
+</head>
+
+<body>
+    <p class="rojo" id="naranja">hola que tal</p> <!--Se ve de color rojo por su class .rojo tiene !important
+                                                      que hace que el color rojo tenga mas prioridad que su id-->
+
+    <p class="rojo"><span>hola que tal</span></p> <!--Se ve de color rojo porque su class .rojo esta definido con rojo-->
+
+    <p id="verde">hola que tal</p> <!--Se ve verde porque su id esta definida de color verde-->
+    <p class="rosa" id="naranja">hola que tal</p> <!--Se ve naranja porque su id naranja tiene mas prioridad que su class rosa-->
+    <p style="color:blue;" class="rosa">hola que tal</p> <!--Se ve azul porque le estas diciendo a esta p que sea de color azul con el "style", 
+                                                               haciendo que sustituya el color rosa de su id-->
+</body>
+
+</html>
