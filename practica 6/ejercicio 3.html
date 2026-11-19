@@ -5,20 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        #h1{border: 3px solid blue; width: 200px;}
-        #h2{color:white;}
+        h1 {border: 3px solid blue; width: 300px; }
+
+        .significa { background-color: gray; color: white; width: 300px; }
+
+        .indica { background-color: black; color: white; width: 300px; }
+
+        .correcto { color: green; }
+
+        .incorrecto { color: red; }
+
+        .pasos { background-color: cyan;  width: 300px;}
     </style>
 </head>
 <body>
-    <h1 id="h1">Solucion test</h1>
-    <h2 id="h2" style="background-color: gray;">¿Que significa CSS?</h2>
 
+    <h1>Solución Test CSS</h1>
 
-    <h2 id="h2" style="background-color: black;">Indica el selector de tipo indicador</h2>
+    <p class="significa">¿Qué significa CSS?</p>
+    <ul>
+        <li class="correcto">Cascading Style Sheets</li>
+        <li class="incorrecto">Center Style Sheet</li>
+        <li class="incorrecto">Calibre Style Sheet</li>
+        <li class="incorrecto">Ninguna respuesta es correcta</li>
+    </ul>
 
+    <p class="indica"> Indica el selector de tipo identificador</p>
+    <ul>
+        <li class="incorrecto">identificador{color:red;}</li>
+        <li class="incorrecto">.identificador{color:red;}</li>
+        <li class="correcto">#identificador{color:red;}</li>
+        <li class="incorrecto">&;identificador{color:red;}</li>
+    </ul>
 
-    <h2 id="h2" style="color: black; background-color: cyan;">Sigue los siguientes pasos</h2>
-
-    
+    <p class="pasos">Sigue los siguientes pasos</p>
+    <ul>
+        <li>Accede a la intranet</li>
+        <li>Entra en la opción de test</li>
+        <li>Descarga el test</li>
+        <li>Envíalo por correo</li>
+    </ul>
 </body>
 </html>
