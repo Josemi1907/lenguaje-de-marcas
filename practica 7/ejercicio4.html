@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table { width: 100%; border-collapse: collapse; text-align: center; }
+
+        th, td { border: 2px solid red; padding: 10px; }
+
+        th { font-size: 30px; font-weight: bold; font-style: italic; color: orange; text-decoration: underline; }
+
+        td { font-size: 20px; font-weight: bold; color: purple; background-color: cyan; }
+
+        th:nth-child(2), td:nth-child(2), th:nth-child(4), td:nth-child(4) { background-color: yellow; }
+
+        td:first-child:hover { background-color: black; color: white; padding: 30px; }
+
+        td:nth-child(3):hover { cursor: pointer; }
+
+        td:nth-child(3):active { background-color: brown; transform: rotate(360deg); transition: transform 1s; }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Planeta</th>
+            <th>Distancia al Sol</th>
+            <th>Masa</th>
+            <th>Satélites</th>
+            </tr>
+
+        <tr>
+            <td>Mercurio</td>
+            <td>57.900.000 km</td>
+            <td>3,30 x 10²³ kg</td>
+            <td>
+                <ul>
+                    <li>Ninguno</li>
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Venus</td>
+            <td>108.200.000 km</td>
+            <td>4,87 x 10²⁴ kg</td>
+            <td>
+                <ul>
+                    <li>Ninguno</li>
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Tierra</td>
+            <td>149.600.000 km</td>
+            <td>5,97 x 10²⁴ kg</td>
+            <td>
+                <ul>
+                    <li>Luna</li>
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Marte</td>
+            <td>227.900.000 km</td>
+            <td>6,42 x 10²³ kg</td>
+            <td>
+                <ul>
+                    <li>Fobos</li>
+                    <li>Deimos</li>
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Júpiter</td>
+            <td>778.600.000 km</td>
+            <td>1,90 x 10²⁷ kg</td>
+            <td>
+                <ul>
+                    <li>Ío</li>
+                    <li>Europa</li>
+                    <li>Ganímedes</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
